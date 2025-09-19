@@ -1,0 +1,180 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+/* step-1 parent container */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: rgb(210, 174, 243);
+} */
+
+/* step-2:components */
+.contactIcon {
+    /* background-color: aqua; */
+    padding: 3rem 0rem;
+}
+
+/* Step3: componentContainer */
+.contactIconContainer {
+    max-width: 1200px;
+    /* Device Screen Size */
+    margin: auto;
+    /* Left and right Center */
+    /* background-color: rgb(23, 89, 212); */
+}
+
+/* Step4: row */
+.contactIconBodyone {
+    /* background-color: crimson; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* Step5: column-1*/
+.contactIconBlockone {
+    /* background-color: chartreuse; */
+}
+
+/* Step6: subColumn */
+.contactIconBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.contactIconCardHeader{
+    text-align: center;
+}
+
+.contactIconBox i {
+    width: auto;
+    height: 4rem;
+    background-color: #be9c79;
+    font-size: 4rem;
+    color: white;
+    padding: 1.2rem;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.contactIconBox p {
+    font-family: var(--ffPrimary);
+    font-size: 2rem;
+    color: #212529;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 1rem 0rem;
+}
+
+.contactIconBox p {
+    font-family: var(--ffPrimary);
+    font-size: 2rem;
+
+}
+
+/* Step7:contentContainer */
+contactIconBodyone {
+    /* background-color: crimson; */
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contactIconBlocktwo {
+    /* background-color: rgb(176, 112, 250); */
+
+}
+
+/* Step6: subColumn*/
+.contactIconBox {
+    /* background-color: rgb(121, 250, 95); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.contactIconHeader {}
+
+.contactIconBox i {}
+
+.contactIconBox p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactIconBox p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactIconMain {}
+
+.contactIconBlockthree {
+    /* background-color: rgb(176, 112, 250); */
+}
+
+/* Step6: subColumn*/
+.contactIconBox {}
+
+
+.contactIconBox i {
+    /* color: aqua; */
+}
+
+.contactIconBox p {}
+
+.contactIconBox p {}
+
+.contactIconBlockfour {
+    /* background-color: rgb(176, 112, 250); */
+}
+
+/* Step6: subColumn*/
+.contactIconBox {}
+
+.contactIconBox i {}
+
+.contactIconBox p {}
+
+.contactIconBox p {}
+
+.contactIconBodytwo {
+    border-top: 2px solid black;
+    margin: 2rem 0rem;
+}
+
+.contactIconBlockfive {
+    /* background-color: rgb(176, 112, 250); */
+}
+
+/* Step6: subColumn*/
+.contactIconBoxfive {
+    /* background-color: rgb(121, 250, 95); */
+}
+.contactIconCardMain{
+    text-align: center;
+}
+
+.contactIconBoxfive p {
+    font-family: var(--ffPrimary);
+    font-size: 2rem;
+    margin-top: 3rem;
+
+}
+
+.contactIconBoxfive span {
+    color: #be9c79;
+    
+}

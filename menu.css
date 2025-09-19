@@ -1,0 +1,98 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* step-1 parent container */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: rgb(210, 174, 243);
+} */
+
+/* step-2:components */
+.menu {
+    /* background-color:aqua; */
+    padding: 3rem 0rem;
+}
+
+/* Step3: componentContainer */
+.menuContainer {
+    /* background-color: rgb(23, 89, 212); */
+    max-width: 1200px;
+    /* Device Screen Size */
+    margin: auto;
+    /* Left and right Center */
+}
+
+/* Step4: row */
+.menuBodyone {
+    /* background-color:crimson; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Step5: column-1*/
+.menuBlockone {
+    /* background-color: chartreuse;*/
+
+
+
+}
+
+/* Step6: subColumn */
+.menuBoxone {
+    /* background-color:gold; */
+
+}
+
+.menuBoxone figure {}
+
+.menuBoxone figure img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+
+.menuBlocktwo {
+    /* background-color: rgb(52, 161, 154);*/
+    padding: 2rem;
+
+}
+
+
+.menuBox {
+    /*background-color:rgb(255, 64, 0);*/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+/* background-color:gold; */
+
+/* Step7:contentContainer */
+.menuBox h2 {
+    font-family: var(--ffSecondary);
+    color: var(--darkColor);
+    font-weight: 800;
+    line-height: 1.2;
+    font-size: 4.5rem;
+
+}
+
+.menuBox p {
+    font-family: var(--ffPrimary);
+    font-size: 1.53rem;
+    margin: 1rem 0rem;
+    /* text-align: center; */
+
+}
+
+.menuBox button {}

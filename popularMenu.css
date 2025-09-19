@@ -1,0 +1,212 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+/* step-1 parent container */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: rgb(210, 174, 243);
+} */
+
+/* step-2:components */
+.popularMenu {
+    /* background-color:aqua; */
+    padding: 3rem 0rem;
+}
+
+/* Step3: componentContainer */
+.popularMenuContainer {
+    /* background-color: rgb(23, 89, 212); */
+    max-width: 1000px;
+    /* Device Screen Size */
+    margin: auto;
+    /* Left and right Center */
+}
+
+/* Step4: row */
+.popularMenuBodyone {
+     /* background-color:crimson;  */
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+/* Step5: column-1*/
+.popularMenuBlockone {
+     /* background-color:chartreuse;  */
+    
+}
+
+/* Step6: subColumn */
+.popularMenuBoxone {
+     /* background-color:gold;  */
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.popularMenuBoxone figure {
+
+}
+
+.popularMenuBoxone figure img {
+    width: auto;
+    height: 4rem;
+}
+
+.popularMenuBoxone h2 {
+   
+    font-family: var(--ffSecondary);
+    font-size: 4.5rem;
+     color: var(--darkColor);
+    font-weight: 800;
+line-height: 1.2;
+margin: 1rem 0rem 2rem;
+}
+
+.popularMenuBodytwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 0rem 2rem;
+}
+
+.popularMenuBlocktwo {
+     /* background-color:chartreuse;  */
+}
+
+.popularMenuBox {
+  display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ /* background-color:gold;  */
+.popularMenuBox figure {
+
+}
+.popularMenuCardHeader{
+    text-align: center;
+}
+
+
+.popularMenuBox figure img {
+ width:100%;
+ aspect-ratio: 1/1;
+}
+.popularMenuCardMain{
+    text-align: center;
+}
+.popularMenuBox h3 {
+     font-family:var(--ffPrimary);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+    margin: 1rem 1rem ;
+}
+
+
+.popularMenuBlockthree {
+     /* background-color:chartreuse;  */
+}
+
+.popularMenuBox {
+
+}
+
+/* background-color:gold;  */
+.popularMenuBox figure {}
+
+.popularMenuBox figure img {
+    
+}
+
+.popularMenuBox h3 {
+    
+}
+
+
+.popularMenuBlockfour {
+    /* background-color:chartreuse;  */
+}
+
+.popularMenuBox {}
+
+ /* background-color:gold;  */
+.popularMenuBoxfour figure {
+
+}
+
+.popularMenuBox figure img {
+     
+}
+
+.popularMenuBox h3 {
+    
+}
+
+
+.popularMenuBlockfive {
+     /* background-color:chartreuse;  */
+}
+
+.popularMenuBox{
+
+}
+
+ /* background-color:gold;  */
+.popularMenuBox figure {}
+
+.popularMenuBox figure img {
+     
+}
+
+.popularMenuBox h3 {
+    
+}
+
+
+.popularMenuBlocksix {
+     /* background-color:chartreuse;  */
+}
+
+.popularMenuBox {}
+
+ /* background-color:gold;  */
+.popularMenuBox figure {}
+
+.popularMenuBox figure img {
+    
+
+.popularMenuBox h3 {
+   
+}
+
+
+.popularMenuBlockseven {
+     /* background-color:chartreuse;  */
+}
+
+.popularMenuBox{
+
+}
+
+ /* background-color:gold;  */
+.popularMenuBox figure {}
+
+.popularMenuBox figure img {
+    
+}
+
+.popularMenuBox h3 {
+    
+}

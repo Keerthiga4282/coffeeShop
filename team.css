@@ -1,0 +1,206 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+/* step-1 parent container */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: rgb(210, 174, 243);
+} */
+
+/* step-2:components */
+.team {
+     /* background-color:aqua;  */
+    padding: 3rem 0rem;
+}
+
+/* Step3: componentContainer */
+.teamContainer {
+     /* background-color: rgb(23, 89, 212);  */
+    max-width: 1000px;
+    /* Device Screen Size */
+    margin: auto;
+    /* Left and right Center */
+}
+
+/* Step4: row */
+.teamBodyone {
+     /* background-color:crimson;  */
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0rem;
+}
+
+/* Step5: column-1*/
+.teamBlockone {
+     /* background-color:chartreuse;  */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+/* Step6: subColumn-2*/
+.teamBoxone {
+     /* background-color:gold;  */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.teamBoxone figure {}
+
+.teamBoxone figure img {
+     width: auto;
+    height: 4rem;
+}
+
+
+.teamBoxone h2 {
+  
+   font-family: var(--ffSecondary);
+    font-size: 4.5rem;
+     color: var(--darkColor);
+    font-weight: 800;
+line-height: 1.2;
+margin: 1rem 0rem 2rem;
+}
+
+.teamBodytwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0rem 2rem;
+    gap: 1rem;
+}
+
+.teamBlocktwo {
+     /* background-color:chartreuse;  */
+}
+
+.teamBox {
+     /* background-color:gold; */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     
+     
+}
+
+/* background-color:gold;  */
+.teamBox figure {}
+.teamCardHeader
+
+.teamBox figure img {}
+
+.teamCardMain
+
+.teamBox h3 {
+    font-family: var(--ffPrimary);
+    color: #212529;
+    font-size 2rem ;
+    font-weight:500 ;
+    line-height: 1.2;
+    margin:1rem 1rem ;
+    
+    
+}
+
+.teamBlockthree {
+     /* background-color:chartreuse;  */
+}
+
+.teamBox {}
+
+ /* background-color:gold;  */
+.teamBox figure {
+    
+}
+
+.teamBoxthree figure img {}
+
+.teamBox h3 {
+    
+}
+
+.teamBlockfour {
+     /* background-color:chartreuse;  */
+}
+
+.teamBox {
+
+}
+
+ /* background-color:gold;  */
+.teamBox figure {
+
+}
+
+.teamBox figure img {
+
+}
+
+.teamBox h3 {
+ 
+}
+
+.teamBlockfive {
+     /* background-color:chartreuse;  */
+}
+
+.teamBox {
+
+}
+
+/* background-color:gold;  */
+.teamBox figure {
+
+}
+
+.teamBox figure img {
+
+}
+
+.teamBox h3 {
+ 
+}
+
+.teamBlocksix {
+     /* background-color:chartreuse;  */
+}
+
+.teamBox {
+
+}
+ /* background-color:gold;  */
+.teamBox figure {
+
+}
+
+.teamBox figure img 
+{}
+
+.teamBox h3 {
+ 
+}
+
+.teamBlockseven {
+     /* background-color:chartreuse;  */
+}
+
+.teamBox {
+
+}
+ /* background-color:gold;  */
+.teamBox figure {}
+
+.teamBox figure img {}
+
+.teamBoxs h3 {
+    
+}

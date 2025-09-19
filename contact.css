@@ -1,0 +1,111 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+/* step-1 parent container */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: rgb(210, 174, 243);
+} */
+
+/* step-2:components */
+.contact {
+
+    /* background-color:aqua; */
+    padding: 3rem 0rem;
+}
+
+/* Step3: componentContainer */
+.contactContainer {
+    /* background-color: rgb(23, 89, 212); */
+    max-width: 1200px;
+    /* Device Screen Size */
+    margin: auto;
+    /* Left and right Center */
+}
+
+/* Step4: row */
+.contactBodyone {
+    /* background-color:crimson; */
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0rem;
+}
+
+/* Step5: column-1*/
+.contactBlockone {
+    /* background-color:chartreuse; */
+    
+}
+
+/* Step6: subColumn */
+.contactBoxone {
+    /* background-color:gold; */
+display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Step7:contentContainer */
+
+.contactBoxone figure {
+    /* background-color: rgb(231, 252, 44); */
+}
+
+.contactBoxone figure img {
+    /* background-color: rgb(231, 252, 44); */
+    width: auto;
+    height: 4rem;
+    margin: 0rem 1rem;
+}
+
+
+.contactBoxone h2 {
+    /* Step5: column-2*/
+    font-family: var(--ffSecondary);
+    font-size: 4.5rem;
+     color: var(--darkColor);
+    font-weight: 800;
+line-height: 1.2;
+margin: 1rem 0rem 2rem;
+}
+
+.contactBodytwo {
+    /* background-color: crimson; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contactBlocktwo {
+    /* background-color: rgb(176, 112, 250); */
+}
+
+/* Step6: subColumn*/
+.contactBox{
+    /* background-color: rgb(121, 250, 95); */
+}
+
+.contactBoxtwo figure {
+    /* background-color: rgb(231, 252, 44); */
+}
+
+.contactBoxtwo figure img {
+    /* background-color: rgb(231, 252, 44); */
+}
+
+.contactBlockthree {
+    /* background-color: rgb(176, 112, 250); */
+}
+
+Step6:
+
+/*subColumn*/
+.contactBox {
+    /* background-color: rgb(121, 250, 95); */
+}

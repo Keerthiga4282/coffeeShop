@@ -1,0 +1,73 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+/* step-1 parent container */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: rgb(210, 174, 243);
+} */
+
+/* step-2:components */
+.heroSection {
+    /* background-color:aqua; */
+    background: linear-gradient(90deg, white, transparent 70%), url(./assets/images/home-bg.jpg);
+    padding: 25rem 0rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Step3: componentContainer */
+.heroSectionContainer {
+    /* background-color: rgb(23, 89, 212); */
+
+}
+
+/* Step4: row */
+.heroSectionBodyone {
+    /* background-color:crimson; */
+}
+
+/* Step5: column-1*/
+.heroSectionBlockone {
+    /* background-color:chartreuse; */
+
+}
+
+/* Step6: subColumn */
+.heroSectionBoxone {
+    /* background-color:gold; */
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Step7:contentContainer */
+.heroSectionBoxone h1 {
+    font-family: var(--ffSecondary);
+    font-size: 6rem;
+    color: var(--darkColor);
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+.heroSectionBoxone p {
+    font-family: var(--ffPrimary);
+    font-size: 1.7rem;
+    margin: 2rem 5rem 2rem ;
+}
+
+.heroSectionBoxone button {
+    font-family: var(--ffPrimary);
+    font-size: 2.3rem;
+}

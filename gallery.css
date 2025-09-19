@@ -1,0 +1,157 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+/* step-1 parent container */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: rgb(210, 174, 243);
+} */
+
+/* step-2:components */
+.gallery {
+     /* background-color:aqua;  */
+    padding: 3rem 0rem;
+}
+
+/* Step3: componentContainer */
+.gallery {
+     /* background-color: rgb(23, 89, 212);  */
+    max-width: 1200px;
+    /* Device Screen Size */
+    margin: auto;
+    /* Left and right Center */
+}
+
+/* Step4: row */
+.galleryBodyone {
+     /* background-color:crimson;  */
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0rem 2rem;
+}
+
+/* Step5: column-1*/
+.galleryBlockone {
+     /* background-color:chartreuse;  */
+   
+}
+
+/* Step6: subColumn */
+.galleryBoxone {
+     /* background-color:gold;  */
+      display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.galleryBoxone figure {}
+
+.galleryBoxone figure img {
+    width: auto;
+    height: 4rem;
+}
+
+.galleryBoxone h2 {
+    
+     font-family: var(--ffSecondary);
+    font-size: 4.5rem;
+     color: var(--darkColor);
+    font-weight: 800;
+line-height: 1.2;
+margin: 1rem 0rem 2rem;
+}
+
+.galleryBodytwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0rem 2rem;
+    gap: 1rem;
+}
+
+.galleryBlocktwo {
+     /* background-color:chartreuse;  */
+}
+
+.galleryBox {}
+
+ /* background-color:gold;  */
+.galleryBoxtwo figure {}
+
+.galleryBoxtwo figure img {}
+
+
+
+
+.galleryBlockthree {
+     /* background-color:chartreuse;  */
+}
+
+.galleryBox {}
+
+ /* background-color:gold;  */
+.galleryBoxthree figure {}
+
+.galleryBoxthree figure img {}
+
+
+
+.galleryBlockfour {
+     /* background-color:chartreuse;  */
+}
+
+.galleryBox {}
+
+ /* background-color:gold;  */
+.galleryBoxfour figure {}
+
+.galleryBoxfour figure img {}
+
+
+
+.galleryBlockfive {
+     background-color:chartreuse; 
+}
+
+.galleryBox {}
+
+/* background-color:gold;  */
+.galleryBoxfive figure {}
+
+.galleryBoxfive figure img {}
+
+
+
+.galleryBlocksix {
+     /* background-color:chartreuse;  */
+}
+
+.galleryBox {
+
+}
+
+ /* background-color:gold;  */
+.galleryBoxsix figure {}
+
+.galleryBoxsix figure img {}
+
+
+
+.galleryBlockseven {
+     /* background-color:chartreuse;  */
+}
+
+.galleryBox {
+
+}
+
+ /* background-color:gold;  */
+.galleryBoxseven figure {}
+
+.galleryBoxseven figure img {}

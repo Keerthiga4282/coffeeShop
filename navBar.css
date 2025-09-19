@@ -1,0 +1,108 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+/* step-1 parent container */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: rgb(210, 174, 243);
+} */
+
+/* step-2:components */
+.navBar {
+   /* background-color: aqua;*/
+    padding: 3rem 0rem;
+}
+
+/* Step3: componentContainer */
+.navBarContainer {
+    max-width: 1200px;
+    /* Device Screen Size */
+    margin: auto;
+    /* Left and right Center */
+    /* background-color: rgb(23, 89, 212); */
+}
+
+/* Step4: row */
+.navBarBodyone {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: crimson;*/
+}
+
+/* Step5: column-1*/
+.navBarBlockone {
+    /* background-color: chartreuse;*/
+
+}
+
+/* Step6: subColumn */
+.navBarBoxone {
+     /*background-color: rgb(39, 34, 8);*/
+}
+
+/* Step7:contentContainer */
+.navBarBoxone a {
+    /* background-color: rgb(231, 252, 44); */
+
+}
+
+.navBarBoxone figure {
+    /* background-color: rgb(231, 252, 44); */
+
+}
+
+.navBarBoxone figure img {
+    /* background-color: rgb(231, 252, 44); */
+    width: auto;
+    height: 5.3rem;
+    margin-left: 2.6rem;
+
+}
+
+
+
+/* Step5: column-2*/
+.navBarBlocktwo {
+     /*background-color: rgb(113, 212, 118);*/
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* Step6: subColumn*/
+.navBarBox {
+     /*background-color: rgb(118, 95, 250);*/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBarBox ul {
+    /* background-color: rgb(118, 240, 240); */
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.navBarBox ul li {
+    /* background-color: rgb(118, 240, 240); */
+    letter-spacing: normal;
+}
+
+.navBarBox ul li a {
+    font-family:var(--ffPrimary);
+    color: var(--ffTertiary);
+font-size: 2rem;
+ margin-right: 2rem;
+ font-weight: 400;
+ 
+    /* background-color: rgb(118, 240, 240); */
+}
